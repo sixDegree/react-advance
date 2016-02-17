@@ -16,44 +16,21 @@
 > webpack-dev-server [--config configFilename] [--port 3000] [--hot] [--inline]
 ```
 
-#### Demo1
+### projects
 
-```
-> webpack --config webpack.config-1.js
-```
-
-or
-
-```
-> webpack-dev-server --config webpack.config-1.js --port 3000 --hot --inline
-```
-
-
-#### Demo2
-
-```
-> webpack --config webpack.config-2.js
-> node server
-```
-
-or
-
-```
-webpack-dev-server --config webpack.config-2.js --port 3000 --hot --inline
-```
-
-
-### React Reflux Demo
-
-see `imgur.html`
-
-
-### React Firebase Demo
-
-see `reactQa.html`
-
-### React Router Isomorphic
-
-```
-> node app-3
-```
+- question
+	+ build by gulp: `gulp build`
+	+ build by webpack: 
+		* `webpack`
+		* `webpack-dev-server --config xxx --port 3000 --hot --inline`
+		* `node server`
+	+ isomorphic : `node app-1`,`node-app-2`
+	+ combine nodejs with webpack for develop environment: `node app-3`
+- question-firebase `webpack`
+- imgur-reflux `webpack`
+- router
+	+ simple react router sample: `webpack`
+	+ isomorphic: `node app`
+- starter-redux
+- book-redux
+- weather-redux

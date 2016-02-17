@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello React!</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/style.css">
+  <style type="text/css">
+    .media-left .btn{
+      margin-bottom: 10px;
+      line-height: 1;
+      font-size:80%;
+      padding:2px 12px;
+    }
+   
+  </style>
+</head>
+<body>
+  
+  <div id="app" class="container"></div>
+
+  <!-- gulp 
+  <script type="text/javascript" src="dist/app.js"></script>-->
+
+  <!-- webpack:
+  webpack --config webpack.config-1.js
+  webpack-dev-server --config webpack.config-1.js --port 3000
+  webpack-dev-server --config webpack.config-1.js --port 3000 --hot --inline
+  
+  <script type="text/javascript" src="dist/app-webpack1.js"></script>-->
+
+  <!-- webpack
+  webpack --config webpack.config-2.js
+  webpack-dev-server --config webpack.config-2.js --port 3000
+  webpack-dev-server --config webpack.config-2.js --port 3000 --hot --inline
+  node server
+  visit: http://localhost:3000
+  <script type="text/javascript" src="dist/app-webpack2.js"></script> -->
+
+
+  <!-- webpack
+  webpack --config webpack.config-3.js
+  webpack-dev-server --config webpack.config-3.js --port 3000
+  webpack-dev-server --config webpack.config-3.js --port 3000 --hot --inline
+  node server
+  visit: http://localhost:3000
+  
+  <script type="text/javascript" src="dist/common.js"></script> 
+  <script type="text/javascript" src="dist/app-webpack3.js"></script> -->
+
+  <!-- webpack
+  webpack
+  webpack-dev-server --port 3000 --hot --inline
+  node server
+  -->
+  <script type="text/javascript" src="dist/common.js"></script> 
+  <script type="text/javascript" src="dist/app-webpack.js"></script> 
+
+</body>
+</html>
